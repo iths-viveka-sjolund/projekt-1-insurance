@@ -1,0 +1,156 @@
+body{
+    margin: auto;
+    width: 1000px;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+}
+
+h1{
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+
+
+
+/* 
+----- BLÅ   align-items: flex-end;
+    justify-content: space-around;
+    
+    SIDAN -----
+*/
+
+.top-section{
+    height: 300px;
+    background-color: #C7DDEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+img{
+    margin: 0;
+}
+
+/*  ---------------- Meny ---------------- */
+
+.nav-items{
+    list-style-type: none;
+    text-align: center;
+    color:#A9A19E;
+ }
+
+ li{
+    display: inline;
+    padding: 30px 100px 30px 0;
+  }
+
+ a{
+    text-decoration:none;
+    color:#A9A19E;
+ }
+
+
+/*  ------- Kontaktrutan ----------- */
+
+
+ .contact-page{
+     height: 400px;
+     background-color: rgb(168, 168, 168);
+     display: flex;
+     align-items: baseline;
+     justify-content: space-around;
+
+ }
+ 
+ .contact-page-heading{
+     width: 250px;
+ }
+
+ .contact-page p{
+    margin: 8px 0 0 0;
+    font-size: 12px;
+ }
+
+ .email-ruta{
+     background-color: white;
+     border-radius: 3px;
+     width: 300px;
+     height: 15px;
+     padding: 10px;
+ }
+
+ .message-ruta{
+    background-color: white;
+    color: #000000;
+    border-radius: 3px;
+    width: 300px;
+    height: 130px;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+
+.myButton{
+    margin: 10px 0;
+	background-color:#ffffff;
+	-moz-border-radius:29px;
+	-webkit-border-radius:29px;
+	border-radius:29px;
+	border:1px solid #d6d6d6;
+    display:inline-block;
+	color:#000000;
+	font-size:12px;
+	padding:12px 40px;
+    text-decoration:none;
+    
+}  
+
+.contact-form div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*  ---------------- Karta ------------------*/
+
+.karta{
+    margin: -40px 0;
+    background-image: url(img/karta.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 500px;
+    
+}
+
+.karta article {
+    background-color: orange;
+    width: 250px;
+    height: 150px;
+    margin: 5px 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.karta h1{
+
+
+    color: white; 
+    padding: 10px 0 0 10px;
+}
+
+.karta p{
+    padding: 0 0 0 10px;
+
+}
+
+/*  --------------- Slutruta --------------- */
+
+.slutruta{
+    height: 250px;
+    background-color: rgb(107, 107, 107);
+}
