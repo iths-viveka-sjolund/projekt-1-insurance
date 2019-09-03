@@ -29,8 +29,12 @@ h1{
    
 }
 
+.top-section h1{
+    margin: 60px 0 0 250px;
+}
+
 img{
-    margin: 0;
+    margin: 60px 0 0 100px;
 }
 
 /*  ---------------- Meny ---------------- */
@@ -56,22 +60,23 @@ img{
 
 
  .contact-page{
-     height: 400px;
-     background-color: rgb(168, 168, 168);
-     display: flex;
-     align-items: baseline;
-     justify-content: space-around;
-
+    height: 450px;
+    padding: 80px 0 0 0;
+    background-color: #A9A19E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
  }
  
- .contact-page-heading{
-     width: 250px;
+ .contact-page h1{
+    width: 280px;
+    padding: 0 0 35px 0;
+    margin: 0;
+    font-size: 36px;
+    color: #ffffff;
  }
 
- .contact-page p{
-    margin: 8px 0 0 0;
-    font-size: 12px;
- }
+
 
  .email-ruta{
      background-color: white;
@@ -109,44 +114,50 @@ img{
 }  
 
 .contact-form div{
+    margin-top: 20px;
     display: flex;
     justify-content: flex-end;
 }
 
+.contact-form p{
+    margin: 15px 0 0 0;
+}
+
 /*  ---------------- Karta ------------------*/
 
+
 .karta{
-    margin: -40px 0;
     background-image: url(img/karta.jpg);
     background-position: center; 
     background-repeat: no-repeat;
-    height: 500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
     
 }
 
 .karta article {
-    background-color: orange;
+    margin: 100px;
     width: 250px;
     height: 150px;
-    margin: 5px 40px;
-    padding: 20px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-
+    padding: 30px;
+    background-color: orange;
+    
 }
 
 .karta h1{
-
-
-    color: white; 
-    padding: 10px 0 0 10px;
+    margin: 0;
+    width: 280px;
+    font-size: 36px;
+    color: #ffffff;
 }
 
-.karta p{
-    padding: 0 0 0 10px;
-
+.karta p{ 
+    line-height: 0.3em;
+    
+    
 }
+
 
 /*  --------------- Slutruta --------------- */
 
