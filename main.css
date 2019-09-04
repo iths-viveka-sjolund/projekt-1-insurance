@@ -7,6 +7,7 @@ body{
 
 h1{
     font-family: 'Playfair Display', serif;
+    font-size: 36px;
 }
 
 
@@ -42,20 +43,23 @@ h2{
     margin: 0;
     width: 280px;
     padding: 0 0 15px 0;
-    font-size: 36px;
    
 }
 
 .hero-blue p{
     margin: 0 0 20px 0;
+    padding: 0 0 40px;
     width: 250px;
     text-align: left;
     line-height: 1.5rem;
 }
 
+.hero-blue a{
+    color:white;
+}
 
 .image-family{
-    margin: -81px 80px;
+    margin: -122px 80px;
     width: 290px;
     align-self: flex-end;
 }
@@ -64,9 +68,11 @@ h2{
     background-color:#ffffff;
     -moz-border-radius:29px;
     -webkit-border-radius:29px;
+    box-shadow: 0px 2px 2px -2px black;
     border-radius:29px;
-    border:1px solid #d6d6d6;
+    border:1px solid white;
     display:inline-block;
+    color: black;
     font-size: 12px;
     font-weight: 700;
     font-family: 'Fira Sans', sans-serif;
@@ -111,11 +117,17 @@ h2{
     color:#A9A19E;
 }
 
-li {
+li{
     display: inline;
-    padding: 30px 100px 30px 0;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 50px 100px 50px 0;
 }
-  
+
+.home-link{
+    color: black;
+}
+
 a{
     text-decoration:none;
     color:#A9A19E;
@@ -124,22 +136,21 @@ a{
 
 /*--------------- GREY SECTION ----------------*/
 
-.h1-grey{
-    width: 280px;
-    padding: 0 0 35px 0;
-    margin: 0;
-    font-size: 36px;
-    color: #ffffff;
-    font-family: 'Playfair Display', serif;
-}
-
 .section-grey{
-    height: 600px;
+    height: 500px;
     padding: 80px 0 0 0;
     background-color: #A9A19E;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.h1-grey{
+    width: 280px;
+    padding: 0 0 50px 0;
+    margin: 0;
+    font-size: 36px;
+    color: #ffffff;
 }
  
 .section-grey p{
@@ -179,18 +190,19 @@ a{
     -moz-box-shadow: 10px 10px 18px -11px rgba(0,0,0,0.34);
     box-shadow: 10px 10px 18px -11px rgba(0,0,0,0.34);
 }
- 
-.card p {
-    font-size: 10px;
-    color: grey;
-    text-align: center;
-}
- 
+
 .card h4 {
-    margin: 30px 0 0 0;
+    margin: 15px 0 0 0;
     color: #000000;
     font-family: 'Playfair Display', serif;
     font-size: 12px;
+    text-align: center;
+}
+
+.card p {
+    padding: 10px 0 40px;
+    font-size: 8px;
+    color: grey;
     text-align: center;
 }
  
@@ -216,19 +228,19 @@ a{
     align-items: center;
 }
  
+.section-yellow h1{
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    text-align: center;
+}
+
 .section-yellow p{
     font-size: 12px;
     text-align: center;
     width: 450px;
     color: rgb(0, 0, 0);
     line-height: 1.2rem;
-}
- 
-.section-yellow h1{
-    font-size: 36px;
-    font-family: 'Playfair Display', serif;
-    color: #ffffff;
-    text-align: center;
 }
  
 /*------------- INFO BOX ------------- */
@@ -239,6 +251,7 @@ a{
     grid-template-rows: 1fr 1fr;
     height: 40rem;
     max-width: 100%;
+    background-color: white;
 }
 
 .info-box-container h1{
@@ -269,20 +282,19 @@ a{
 }
 
 .signup-two{
-    background-color: white;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 40% 60%;
 }
 
 .signup-three{
+    background-color: #EBEBEB;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 40% 60%;
 }
 
 .signup-four{
-    background-color: white;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 40% 60%;
@@ -296,7 +308,6 @@ a{
 }
 
 .signup-six{
-    background-color: white;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 40% 60%;

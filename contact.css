@@ -47,13 +47,19 @@ img{
 
  li{
     display: inline;
-    padding: 30px 100px 30px 0;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 50px 100px 50px 0;
   }
 
  a{
     text-decoration:none;
     color:#A9A19E;
  }
+
+.nav-items a{
+    color: black;
+}
 
 
 /*  ------- Kontaktrutan ----------- */
@@ -102,12 +108,14 @@ img{
     margin: 10px 0;
 	background-color:#ffffff;
 	-moz-border-radius:29px;
-	-webkit-border-radius:29px;
+    -webkit-border-radius:29px;
+    box-shadow: 0px 2px 2px -2px black;
 	border-radius:29px;
-	border:1px solid #d6d6d6;
+	border:1px solid white;
     display:inline-block;
 	color:#000000;
-	font-size:12px;
+    font-size:12px;
+    font-weight: bold;
 	padding:12px 40px;
     text-decoration:none;
     
