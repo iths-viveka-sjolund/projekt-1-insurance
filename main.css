@@ -78,6 +78,7 @@ h2{
     font-family: 'Fira Sans', sans-serif;
     padding:12px 40px;
     text-decoration:none;
+    cursor: pointer;
 }
 
 .hero-orange{
@@ -264,6 +265,7 @@ a{
     color: #A9A19E;
     margin: 0;
     font-size: 25px;
+    transition-duration: 6s;
 }
 
 .info-box-container p{
@@ -280,11 +282,21 @@ a{
     align-items:center;
     justify-content: center;
 }
+.signup-one h1{
+    color:  #C7DDEA;
+    transition-duration: 4s;
+}
+
 
 .signup-two{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 40% 60%;
+    color: white;
+}
+
+.signup-two p{
+    transition-duration: 4s;
 }
 
 .signup-three{
