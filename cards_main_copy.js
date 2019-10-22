@@ -18,15 +18,7 @@ buttonToTop.addEventListener("click", scroller);
 // document.body.style.backgroundColor = "blue";
 
 
-function dissolve(){
-    if(document.body.scrollTop > 1300){
-        document.body.style.backgroundColor = "blue";
-    }
-    
-}
-
-
-// let test = document.querySelectorAll(".signup-one h1,.signup-two p,.signup-three" )
+// let test = document.querySelector(".signup-one h1") Används när man endast ska välja en grej från html.
 
 
 let signups = document.querySelectorAll(".signup-one h1,.signup-two p")
